@@ -1,0 +1,5 @@
+version: "1.0.0"
+description: An implementation of the Platform Security Architecture Crypto API for ESP32.
+url: https://github.com/machinefi/psa-crypto-esp32
+dependencies:
+  idf: ">=5.0"

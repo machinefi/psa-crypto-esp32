@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run clang-format",
+            "type": "shell",
+            "command": "${workspaceFolder}/tools/clang-format.sh",
+            "options": {
+                "cwd": "${workspaceFolder}/tools"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

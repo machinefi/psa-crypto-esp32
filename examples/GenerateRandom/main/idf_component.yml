@@ -1,0 +1,5 @@
+dependencies:
+  PSACrypto:
+    version: "*"
+    override_path: "../../../"
+    

@@ -1,0 +1,8 @@
+build
+.pio
+docs
+xml
+KeywordsTxtGenerator
+Testing
+.vscode/launch.json
+.vscode/settings.json
