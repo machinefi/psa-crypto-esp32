@@ -15,7 +15,6 @@
 
 static const char *TAG = "";
 
-extern void default_SetSeed(unsigned int seed);
 void app_main(void)
 {
 	ESP_LOGI(TAG, "W3bstream SDK example: Random number generation");
@@ -47,11 +46,7 @@ void app_main(void)
 
 	// Print the random bytes.
 	ESP_LOGI(TAG, "Random bytes:");
-
-	for(int i = 0; i < sizeof(random); i++)
-	{
-		ESP_LOGI(TAG, "%.2x ", random[i]);
-	}
+	ESP_LOG_BUFFER_HEX(TAG, random, sizeof(random));
 
     while(1) {
 

@@ -1,0 +1,15 @@
+dependencies:
+  PSACrypto:
+    component_hash: null
+    source:
+      path: D:\WorkSpace\Espressif\PSACrypto
+      type: local
+    version: 1.0.0
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.0.0
+manifest_hash: a46fac6a5380da0449c215120c44f45421c4f384de4ea912b4a11a9346a29797
+target: esp32s3
+version: 1.0.0
