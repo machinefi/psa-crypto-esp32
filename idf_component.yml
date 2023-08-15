@@ -1,5 +1,7 @@
-version: "1.0.0"
-description: An implementation of the Platform Security Architecture Crypto API for ESP32.
-url: https://github.com/machinefi/psa-crypto-esp32
+description: PSACrypto is an ESPRESSIF ESP32 component that implements the cryptography functionality of the Platform Security Architecture (PSA) API. 
+url: https://developers.iotex.io/
+repository: https://github.com/machinefi/psa-crypto-esp32.git
+documentation: https://developers.iotex.io/academy/all
+issues: https://github.com/machinefi/psa-crypto-esp32/issues
 dependencies:
   idf: ">=5.0"
