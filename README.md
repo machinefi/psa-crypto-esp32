@@ -7,6 +7,8 @@
 
 PSACrypto is an ESPRESSIF ESP32 component that implements the cryptography functionality of the Platform Security Architecture (PSA) API. It provides a standardized and easy-to-use interface for cryptographic operations on ESP32 boards, ensuring secure communication, data integrity, and confidentiality.
 
+PSACrypto is designed specifically for building Decentralized Physical Infrastructure Networks ([DePIN](https://iotex.io/blog/what-are-decentralized-physical-infrastructure-networks-depin/)) projects. To find more examples of the DePIN project, you can explore [DePIN Scan](https://depinscan.io/).
+
 ## Features
 
 - **Secure Key Generation**: Generate secure cryptographic keys for various algorithms.
